@@ -1,17 +1,17 @@
-package com.joker.demo.factory;
+package com.joker.demo.factory.simple;
 
 /**
  * @version 1.0.0
- * @ClassName CheesePizza.java
+ * @ClassName PepperPizza.java
  * @Package com.joker.demo.factory
  * @Author Joker
  * @Description
- * @CreateTime 2021年07月20日 14:46:00
+ * @CreateTime 2021年07月20日 14:50:00
  */
-public class CheesePizza extends Pizza{
+public class PepperPizza extends Pizza{
     @Override
     public void prepare() {
-        super.setpName("CheesePizza");
+        super.setpName("PepperPizza");
         System.out.println(getpName()+" preparing;");
     }
 }

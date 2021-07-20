@@ -1,4 +1,4 @@
-package com.joker.demo.factory;
+package com.joker.demo.factory.method;
 
 /**
  * @version 1.0.0
@@ -10,6 +10,6 @@ package com.joker.demo.factory;
  */
 public class Test {
     public static void main(String[] args) {
-        OrderPizza orderPizza = new OrderPizza(SimplePizzaFactory.getInstance());
+        OrderPizza orderPizza = new LDOrderPizza(SimplePizzaFactory.getInstance());
     }
 }

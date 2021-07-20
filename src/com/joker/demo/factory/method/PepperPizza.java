@@ -1,4 +1,4 @@
-package com.joker.demo.factory;
+package com.joker.demo.factory.method;
 
 /**
  * @version 1.0.0
@@ -8,7 +8,7 @@ package com.joker.demo.factory;
  * @Description
  * @CreateTime 2021年07月20日 14:50:00
  */
-public class PepperPizza extends Pizza{
+public class PepperPizza extends Pizza {
     @Override
     public void prepare() {
         super.setpName("PepperPizza");

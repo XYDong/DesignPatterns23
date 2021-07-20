@@ -1,4 +1,4 @@
-package com.joker.demo.factory;
+package com.joker.demo.factory.simple;
 
 /**
  * @version 1.0.0
