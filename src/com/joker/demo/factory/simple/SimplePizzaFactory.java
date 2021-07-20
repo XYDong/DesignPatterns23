@@ -25,7 +25,6 @@ public class SimplePizzaFactory {
     private SimplePizzaFactory() {
     }
     public Pizza createPizza(String orderType){
-        Pizza pizza = null;
         switch (orderType) {
             case "cheese":
                 return new CheesePizza();
